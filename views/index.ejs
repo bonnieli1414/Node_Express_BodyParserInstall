@@ -1,0 +1,8 @@
+<% layout('layout') %>
+    <%= title %>
+    <h2><%= boss %></h2>
+    <ul>
+    <% for(var i=0;course.length>i;i++){ %>
+        <li> <%- course[i] %></li>
+    <% } %>
+    </ul>
