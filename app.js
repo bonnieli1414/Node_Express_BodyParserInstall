@@ -10,7 +10,7 @@ app.use(express.static('public'))
 
 // 增加 body 解析
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:false}))
+app.use(bodyParser.urlencoded({extended:true}))
 
 
 //路由
